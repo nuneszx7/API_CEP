@@ -37,6 +37,13 @@ body {
     color: var(--primary-color);
 }
 
+.message {
+    text-align: center;
+    color: #ff5555; /* Cor vermelha para erros */
+    font-weight: bold;
+    min-height: 24px; /* Reserva espaço para não mover o layout */
+}
+
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
